@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import SlotMachine from './components/SlotMachine';
 
-const BACKEND_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID_HERE/exec';
+const BACKEND_URL = 'https://script.google.com/macros/s/AKfycbyQKOv8op0hyOdrSoG2ZhXFiv3PaCYyPNL0HwiLimYtYoz_e86P4wDuUOzhY2iQtExiBA/exec';
 
 export default function App() {
   const [username, setUsername] = useState('');
